@@ -7,5 +7,5 @@ button.addEventListener("click", () => {
       return res.json();
     })
     .then((data) => (para.innerHTML = data.slip.advice))
-    .catch((error) => console.log("Error"));
+    .catch((error) => {});
 });
